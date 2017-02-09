@@ -9,13 +9,22 @@ public class MiniDuckSimulator {
 		DecoyDuck	decoy = new DecoyDuck();
  
 		ModelDuck	model = new ModelDuck();
+        SchaperDuck  schaper = new SchaperDuck();
+
+		mallard.display();
+		rubberDuckie.display();
+		decoy.display();
+		model.display();
+		schaper.display();
 
 		mallard.performQuack();
 		rubberDuckie.performQuack();
 		decoy.performQuack();
+		schaper.performQuack();
    
 		model.performFly();	
 		model.setFlyBehavior(new FlyRocketPowered());
 		model.performFly();
+
 	}
 }
