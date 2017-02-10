@@ -12,5 +12,10 @@ public class MiniDuckSimulator {
 		//team1.Team1Flock();
 
 
+        Team3Flock team3 = new Team3Flock();
+
+        team3.team3Flock();
+
+
 	}
 }
