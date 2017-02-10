@@ -1,7 +1,7 @@
-package PACKAGE_NAME;
+package headfirst.strategy;
 
-/**
- * Created by adamhoward on 2/10/17.
- */
-public class HowardQuack {
+public class HowardQuack implements QuackBehavior {
+    public void quack() {
+        System.out.println("Quacks like a Howard!!!");
+    }
 }

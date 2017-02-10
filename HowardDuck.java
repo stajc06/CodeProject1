@@ -1,7 +1,12 @@
-package PACKAGE_NAME;
+package headfirst.strategy;
 
-/**
- * Created by adamhoward on 2/10/17.
- */
-public class HowardDuck {
+public class HowardDuck extends Duck {
+
+    public HowardDuck() {
+        quackBehavior = new HowardQuack();
+        flyBehavior = new FlyNoWay();
+    }
+    public void display() {
+        System.out.println("I am a legitimate Howard duck ");
+    }
 }

@@ -1,6 +1,5 @@
-/**
- * Created by Devon on 2/10/17.
- */
+package headfirst.strategy;
+
 public class HarrisDuck extends Duck
 {
     public HarrisDuck

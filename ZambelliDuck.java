@@ -6,7 +6,8 @@ package headfirst.strategy;
 
 public class ZambelliDuck extends Duck
 {
-    public ZambelliDuck() {
+    public ZambelliDuck()
+    {
         quackBehavior = new ZambelliQuack();
         flyBehavior = new FlyRocketPowered();
     }
