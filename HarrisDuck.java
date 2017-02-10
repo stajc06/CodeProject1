@@ -2,10 +2,10 @@ package headfirst.strategy;
 
 public class HarrisDuck extends Duck
 {
-    public HarrisDuck
+    public HarrisDuck()
     {
-        flybehavior = new FlyWithWings();
-        quackbehavior = new HarrisQuack();
+        flyBehavior = new FlyWithWings();
+        quackBehavior = new HarrisQuack();
     }
 
     public void display()
