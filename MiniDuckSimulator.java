@@ -9,7 +9,7 @@ public class MiniDuckSimulator {
 
 
         schaper.SchaperFlock();
-		//team1.Team1Flock();
+		//team1.Team1Flock();;
 
 
 	}
