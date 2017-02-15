@@ -10,6 +10,5 @@ public class team2Flock {
             polich.performQuack();
             fatuova.display();
             fatuova.performQuack();
-            fatuova.performQuack();
         }
     }
