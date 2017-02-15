@@ -4,11 +4,11 @@ public class MiniDuckSimulator {
  
 	public static void main(String[] args) {
 
-        SchaperFlock schaper = new SchaperFlock();
+        MeonoFlock meono = new MeonoFlock();
         //Team1Flock = new team1();
 
 
-        schaper.SchaperFlock();
+        meono.MeonoFlock();
 		//team1.Team1Flock();
 
 
