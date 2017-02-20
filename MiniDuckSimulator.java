@@ -1,16 +1,21 @@
+
 package headfirst.strategy;
 
 public class MiniDuckSimulator {
- 
-	public static void main(String[] args) {
 
-        SchaperFlock schaper = new SchaperFlock();
-        team2Flock team2 = new team2Flock();
+    public static void main(String[] args) {
 
 
-        schaper.SchaperFlock();
-		team2.team2Flock();
+        TeamFour teamFour = new TeamFour();
 
 
-	}
+        teamFour.teamFourFlock();
+
+
+        Team3Flock team3 = new Team3Flock();
+
+        team3.team3Flock();
+
+
+    }
 }
